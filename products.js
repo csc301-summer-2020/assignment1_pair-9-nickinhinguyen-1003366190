@@ -1,6 +1,5 @@
 const PRODUCTS = [
     {
-
       id: 1,
       imageUri: require("./assets/books/C_programming.jpg"),
       title: "C Programming",
