@@ -1,8 +1,5 @@
 name: test
-on:
-  push:
-    branches:
-      - developer
+on: push
 
 jobs:
   build:
