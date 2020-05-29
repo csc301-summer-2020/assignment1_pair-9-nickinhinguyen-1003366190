@@ -13,8 +13,12 @@ jobs:
       with:
         node-version: 12.x
         
-    - name:  test
+    - name:  install
       working-directory: ./MobileApp
-    - run: npm ci
-    - run: npm run build --if-present
-    - run: npm test
+      run: npm ci
+    - name:  build 
+      working-directory: ./MobileApp
+      run: npm run build --if-present
+    - name:  test 
+      working-directory: ./MobileApp
+      run: npm test
