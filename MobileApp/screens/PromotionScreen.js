@@ -42,7 +42,8 @@ class PromotionScreen extends Component {
                placeholder = " enter a promo "
                placeholderTextColor = "#9a73ef"
                autoCapitalize = "none"
-               onChangeText = {this.handlepromo}/>
+               onChangeText = {this.handlepromo}
+               testID={'promo-input'} />
             <TouchableOpacity
                 style = {styles.submitButton}
                 onPress = {
