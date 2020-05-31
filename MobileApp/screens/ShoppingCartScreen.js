@@ -56,21 +56,21 @@ class ShoppingCartScreen extends Component {
                 <View style={summary} >
                     <View style={summaryLine}>
                         <Text>Order Subtotal    </Text>
-                        <Text> ${subtotal.toFixed(2)}</Text>
+                        <Text testID={'subtotal'} > ${subtotal.toFixed(2)}</Text>
                     </View >
                     <View style={summaryLine}>
                         <Text>Tax (13%)   </Text>
-                        <Text> ${tax.toFixed(2)}</Text>
+                        <Text testID={'tax'}> ${tax.toFixed(2)}</Text>
                     </View>
                     <View style={summaryLine}>
                         <Text>Promotion  </Text>
-                        <Text>${discount.toFixed(2)}</Text>
+                        <Text testID={'discount'}>${discount.toFixed(2)}</Text>
                     </View>
                     
                 </View>
                     </ScrollView>
                 <TouchableOpacity style={checkoutButton} >
-                    <Text style={checkoutTitle}>TOTAL ${total.toFixed(2)} CHECKOUT NOW</Text>
+                    <Text testID={'total'} style={checkoutTitle}>TOTAL ${total.toFixed(2)} CHECKOUT NOW</Text>
                 </TouchableOpacity>
             </View>
         );
