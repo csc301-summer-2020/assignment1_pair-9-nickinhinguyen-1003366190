@@ -4,6 +4,9 @@
 * The application is published on Expo: 
 ***https://expo.io/@ayukiie/Shopping-Cart***
 
+## Report
+Available at: [Report](<./CSC301 REPORT MAY 2020.pdf>)
+
 <img src="MobileApp/demo.gif?raw=true" width=300 >
 
 
